@@ -11,7 +11,7 @@ spec:
     path: defs
   destination:
     server: https://kubernetes.default.svc
-    namespace: georges
+    namespace: default
   syncPolicy:
     automated:
       selfHeal: true
